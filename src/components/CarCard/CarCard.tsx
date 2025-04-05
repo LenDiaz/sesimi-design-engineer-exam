@@ -18,18 +18,19 @@ const CarCard = ({ car }: CarCardProps) => {
           aria-label={`${car.name} illustration`}
         />
       </div>
-      <h2 className="mt-4 text-2xl">
+      <h2 className="font-semibold mt-4 text-3xl text-center">
         {car.name}
       </h2>
       
-      <p>
-        For <span>${car.price.toLocaleString()}</span>
-      </p>
+      <div className="relative mt-2">
+        <span className="absolute top-[1px] left-[5px] text-sm">For</span>
+        <span className="text-xl font-semibold pl-8">${car.price.toLocaleString()}</span>
+      </div>
       
       <Button
         label="Get Started"
         onClick={handleGetStarted}
-        className="mt-4 w-full"
+        className="mt-4 w-full font-semibold text-xl"
       />
     </div>
   );
