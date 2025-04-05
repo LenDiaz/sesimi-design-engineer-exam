@@ -1,46 +1,95 @@
-# Getting Started with Create React App
+# Senior Design Engineer Exam Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Application Description
+This is a React-based web application built with TypeScript and TailwindCSS. The project demonstrates modern front-end development practices and showcases various UI components and features.
 
-## Available Scripts
+### Features
+- Modern React application with TypeScript support
+- Responsive design using TailwindCSS
+- Component-based architecture
+- Type-safe development environment
+- Optimized build process
 
-In the project directory, you can run:
+## Prerequisites
+- Node.js version 18.0.0 or higher
+- npm (Node Package Manager) version 8.0.0 or higher
 
-### `npm start`
+## Dependencies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Core Dependencies
+- `react`: ^19.0.0 - JavaScript library for building user interfaces
+- `react-dom`: ^19.0.0 - React package for working with the DOM
+- `react-scripts`: 5.0.1 - Scripts and configuration used by Create React App
+- `web-vitals`: ^4.2.4 - Library for measuring web performance metrics
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Development Dependencies
+- `typescript`: ^4.9.5 - TypeScript support for the project
+- `tailwindcss`: ^3.4.17 - Utility-first CSS framework
+- `cra-template-typescript`: 1.2.0 - TypeScript template for Create React App
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
+1. Clone the repository:
+```bash
+git clone [repository-url]
+cd senior-design-engineer-exam
+```
 
-### `npm run build`
+2. Install dependencies:
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Running the Project
+1. Start the development server:
+```bash
+npm start
+```
+This will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Build the project for production:
+```bash
+npm run build
+```
+This creates an optimized production build in the `build` folder.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Run tests:
+```bash
+npm test
+```
 
-### `npm run eject`
+## Deployment
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Building for Production
+1. Create a production build:
+```bash
+npm run build
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. The build files will be created in the `build` directory.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Deployment Options
+1. **Static Hosting**
+   - The build files can be deployed to any static hosting service like:
+     - Vercel
+     - Netlify
+     - GitHub Pages
+     - AWS S3 + CloudFront
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+2. **Deployment Steps**
+   - Upload the contents of the `build` directory to your hosting provider
+   - Configure the hosting service to serve the `index.html` file for all routes
+   - Set up environment variables if needed
+   - Configure custom domain if required
 
-## Learn More
+### Environment Variables
+If your application requires environment variables:
+1. Create a `.env` file in the root directory
+2. Add your environment variables following the pattern:
+```
+REACT_APP_VARIABLE_NAME=value
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Support
+For any issues or questions, please refer to the project documentation or create an issue in the repository.
