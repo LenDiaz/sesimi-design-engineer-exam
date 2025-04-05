@@ -10,7 +10,7 @@ const Header = () => {
 
       {/* Content */}
       <div className="relative h-full flex flex-col justify-center px-6 md:px-12 max-w-7xl mx-auto text-white">
-        <h1 className="text-6xl md:text-8xl font-semibold mb-4">
+        <h1 className="text-6xl md:text-7xl font-semibold mb-4">
           Ready to<br/>own a car?
         </h1>
         <p className="text-2xl md:text-3xl opacity-90">
