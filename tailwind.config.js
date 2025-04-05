@@ -13,7 +13,7 @@ module.exports = {
         "purple": "#544AE5",
       },
       fontFamily: {
-        sans: ["ES Rebond Grotesque", "sans-serif"],
+        sans: ["ES Rebond Grotesque", "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "sans-serif"],
       },
       screens: {
         "square-1080": {
