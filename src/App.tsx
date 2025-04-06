@@ -16,8 +16,8 @@ const App = () => {
       <Header />
       
       {/* Car grid section */}
-      <main className="max-w-7xl mx-auto px-6 md:px-12 py-13 pb-48">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <main className="max-w-7xl mx-auto px-6 md:px-12 py-12 pt-23 pb-48">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {cars.map((car, index) => (
             <CarCard
               key={`${car.color}-${index}`}

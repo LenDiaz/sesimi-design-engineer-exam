@@ -9,7 +9,7 @@ const CarCard = ({ car }: CarCardProps) => {
 
   return (
     <div className="flex flex-col items-center p-4 bg-white rounded-lg">
-      <div className="w-full aspect-[2/1]">
+      <div className="w-full aspect-[2/1] ">
         <CarImage
           className={`w-full h-full ${
             car.color === 'purple' ? 'fill-purple' : 'fill-light-sky-blue'
